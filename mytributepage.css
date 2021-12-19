@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  #main {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px 20px 10px;
+    border-radius: 5px;
+  }
+    #title {
+      align-self: center;
+      text-align: center;
+      margin: 25px;
+    }
+      #title p:nth-child(1) {
+        font-size: 30px;
+        font-family: nokiakokia;
+        margin: 5px 0px;
+        color: #444444;
+        font-weight: 100;
+      }
+      #title p:nth-child(2) {
+        font-size: 14px;
+        margin: 12px 0px;
+        color: #444444;
+        font-family: verdana;
+        font-weight: 400;
+      }
+    #img-div {
+      margin: 0 3%;
+      padding: 2% 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-color: white;
+    }
+      #image {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+      }
+      #img-caption {
+        text-align: center;
+        padding: 5px;
+        color: #333333;
+        margin-top: 25px;
+      }
+    #tribute-info {
+      margin: 10px 0;
+    }
+      #heading {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 26px;
+        color: #333333;
+      }
+      #var-list {
+        width: 70%;
+        margin: 0 auto;
+      }
+        li {
+          margin: 8px 0;
+          clear: left;
+          color: #444444;
+        }
+          li b {
+            float: left;
+            display: block;
+            margin-right: 4px;
+            margin-bottom: 4%;
+            color: #111111;
+          }
+      #link {
+        margin: 0 0 20px 0;
+        font-size: 24px;
+        text-align: center;
+        color: #222222;
+      }
+        #link a {
+          color: #6a0;
+        }
+.clearfix {
+  clear: both;
+}
+@media (max-width: 850px) {
+  #var-list {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #img-div {
+    margin: 0 1%;
+    padding: 1%;
+  }
+  li b {
+    margin-bottom: 0%;
+  }
+} 
